@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif;
+   
+    list-style: square;
+    list-style-position: inside;
+    background-color: rgb(183, 157, 255);
+}
+.titel{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Cambria;
+    background-color: violet;
+    color: rgb(44, 0, 95);
+}
+
+
+
+.beschrijving{
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin: 0;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
+}
+
+.titelBesc{
+    padding-top: 2%;
+    padding-left: 10px;
+}
+
+.kenm{
+    width: 50%;
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.kenm ul li{
+    padding: 10px;
+}
+
+.link{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-top: 27%;
+}
+
+.link a{
+    display: block;
+    border-style: solid;
+    background-color: violet;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 100%;
+}
+
+.link a:hover{
+    background-color:rgb(172, 94, 172);
+}
+
+.img{
+    float: right;
+    padding-right: 40px;
+    padding-top: 5%;
+    max-width: 100%;
+}
